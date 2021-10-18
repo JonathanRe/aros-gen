@@ -1,7 +1,3 @@
-# Vue 3 + Vite
+# A Rasp of Sand Quick Generation Tool - WIP
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+This is a work in progress tool for quickly generating rooms, encounters and characters for the tabletop RPG "A Rasp of Sand", created by [Dave Cox](https://www.drivethrurpg.com/product/298057/A-Rasp-of-Sand)
