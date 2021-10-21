@@ -1,13 +1,26 @@
 <template>
-  <div>
-    <h1 class="text-2xl">Locations</h1>
-    <ul>
-      <li v-for="location in locations" :key="location.name">
-        {{ location.name }}
+  <div class="max-w-2xl mx-auto">
+    <h1 class="text-3xl font-bold">aros-gen</h1>
+    <!-- <ul>
+      <li v-for="location in locations" :key="location.index">
+        <span>{{ location.index }}:</span> {{ location.name }}
       </li>
-      <p class="mt-4">{{ locations[locationIndex].name }}</p>
-      <button class="bg-indigo-500" @click="setLocationIndex()">Reroll</button>
-    </ul>
+    </ul> -->
+    <h2 class="mt-6 text-xl font-bold">Location</h2>
+    <h3 class="mt-2 font-bold">Rolled:</h3>
+    <p>
+      {{ locations[randomLocationIndex].index }}:
+      {{ locations[randomLocationIndex].name }}
+    </p>
+    <p>
+      {{ locations[randomLocationIndex].description }}
+    </p>
+    <button
+      class="mt-4 p-2 text-white bg-indigo-500 hover:bg-indigo-400"
+      @click="setRandomLocationIndex()"
+    >
+      Reroll
+    </button>
   </div>
 </template>
 
@@ -19,12 +32,12 @@ export default {
   data() {
     return {
       locations: locationsData,
-      locationIndex: roll(12),
+      randomLocationIndex: roll(12),
     };
   },
   methods: {
-    setLocationIndex() {
-      this.locationIndex = roll(12);
+    setRandomLocationIndex() {
+      this.randomLocationIndex = roll(12);
     },
   },
   mounted() {},
