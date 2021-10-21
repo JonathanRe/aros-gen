@@ -23,63 +23,63 @@
   {
     "index": 4,
     "name": "Sinking Ship",
-    "description": "",
+    "description": "A large ship is imbedded in the ceiling and floor here. Partially capsized, it hangs perpetually aloft, bow to the sky. It is falling apart slowly as time, water, scavengers and seaweed eat at it. Many things could hide within it, both living and not. Roll on the Pelagic Trap table. If the Heirs spend an Exploration Turn looking around the ship they find an entrance into the cabins and cargo hold. Roll on the table to generate what they find. Sinking Ship Table: 1D6 1. A Chest of Loot (Roll on Loot table twice) is found! 2. A Dead Sailor (Roll on Loot table) is found. 3. A Hermit has set up shop. (Roll on each of the Gear Tables twice to determine stock. The prices are equal to the corresponding dice value x 1.0. 4. There is a noticeable lack of metal on-board. Hiding in the hold, chewing on bolts is a Steel Beak. 5. The Heirs find 2 Dolpod Cultists worshipping at a desecrated temple to the Deep Queen. 6. The ship is covered in Plague Urchins. Trap Door: If the Heirs search the sinking vessel and succeed at a WIS Save, they find a trap door leading down to the Reef. The trap door is old and rotting. It blends into the rotting bottom of the boat. If the Heirs take the door down, generate the next room as usual.",
     "hallways": 0,
     "danger": 0
   },
   {
     "index": 5,
     "name": "Whirlpool Well",
-    "description": "",
+    "description": "You hear water rushing as you enter this room. A lot of the channels from this floor make their way here, either along the halls or through the small pipes in the walls. The water starts shallow around the edge and gradually gets deeper as you near the center of the spherical room. Heirs need to make a STR or DEX Save to stay on their feet at the end of each Combat and Exploration Turn. If they fail, they fall to the ground and begin getting pulled to the center of the room. While knocked prone they are pulled towards the center of the spherical room at the end of their Combat turn. At the beginning of a creature’s Combat turn, they may make a STR or DEX Save, if they succeed they are able to stand. If they fail two Saves in a row they reach the center of the circle. They are sucked into the channel at the bottom, take 1D6 Bludgeoning Damage, and are spit out into The Reef (generate a room in the Reef as usual). It takes two Move Exploration Turns to exit the room.",
     "hallways": 0,
     "danger": 0
   },
   {
     "index": 6,
     "name": "Seagrass Plains",
-    "description": "",
+    "description": "This room has a 10ft ceiling, and the floor is covered in fine sand and seagrass going up to hip level. The grass flows in the wind moving through the Depths. Chel flit around the room munching on grass. If the Heirs spend an Exploration Turn investigating they find an “X” marked in the sand. Buried there is a Chest. Roll 1D4, and on a 1 the Chest is a Mimic Fish, any other number roll on the Treasure table.",
     "hallways": 0,
     "danger": 0
   },
   {
     "index": 7,
     "name": "Spawning Pool",
-    "description": "",
+    "description": "There's sticky egg piles everywhere. Oh gods, they are breeding in here! It's awful I can't describe it. On the upside the Chum are distracted? Roll to determine the number of Chum, they are indeed distracted. Chum Table: 1D4 [-] 1. a Chum 2. 3 Chum 3. 3 Chum and a Chum Guard 4. 4 Chum, 2 Chum Guards and a Chum Priest",
     "hallways": 0,
     "danger": 0
   },
   {
     "index": 8,
     "name": "Driftwood Pile",
-    "description": "",
+    "description": "A massive pile of driftwood greets you as you enter this room. It rises up to the ceiling intermingling with vegetation. There are small crustaceans, Chels and fish peeking out of the many gaps. There’s a large opening near the base. You should be able to hunt for some food here. What's in the Pile: 1D8 1. A Wandering Hermit Merchant 2. 2 Chum 3. 3 Glaucimmian 4. 4 Gulltures 5. 6 Chum 6. An Eelaconda 7. 8 Chum 8. A Scale Stalker",
     "hallways": 0,
     "danger": 0
   },
   {
     "index": 9,
     "name": "Gullture Eerie",
-    "description": "",
+    "description": "This room has a high ceiling. The walls are covered in channels that slowly dump their contents to the floor at your feet. The ground is covered in bird feces up to your shin. The walls are covered in a tightly interwoven net of seaweed, and interspersed within the mess are multiple nests. Roll on the Pelagic Trap table. There are four gulltures and six helpless baby gulltures",
     "hallways": 0,
     "danger": 0
   },
   {
     "index": 10,
     "name": "Chum Nest",
-    "description": "",
+    "description": "In this large room, there are many huts and hanging nests made of Tangle Weed and other strong seaweed and detritus. You can hear the gulping chatter of many Chum. Roll on the Pelagic Trap table. Roll 1D4 to determine the number of Chum that currently live here. They are incredibly skittish and will hide inside their nests if they do not outnumber the Heirs. 1. 3 Chum 2. 5 Chum 3. 4 Chum and a Chum Guard 4. 4 Chum, 2 Chum Guards and a Chum Priest",
     "hallways": 0,
     "danger": 0
   },
   {
     "index": 11,
     "name": "Upside Down Brush",
-    "description": "",
+    "description": "This room has a 30ft ceiling covered with amphibious plants. Dense vegetation surrounds you on all sides. It hangs from the ceiling and hides valuable slugs and dangerous beasts. The vegetation hangs down to about hip level, so you can see to the other side of the room by bending down or crawling. It is darker than most of the surrounding rooms due to the density of the plants growing above you. Roll on the Pelagic Trap table. A colony of 8 Glaucimmians live here. They make a racket as they feed on the Lady-o’- Peace, Velvines, various Slugs and fruits of the vegetation. They will throw toxic darts at intruders and raise a racket if the Heirs aren’t sneaky. If the Heirs spend an Exploration Turn investigating they find 4 random Slugs hidden in the brush.",
     "hallways": 0,
     "danger": 0
   },
   {
     "index": 12,
     "name": "The Shelf",
-    "description": "",
+    "description": "The hall you are in empties into a pit. You can’t see the bottom. Channels flow up and down the walls of this abyss. There are narrow walkways that you might be able to use to cross the Shelf. Some creatures may climb down here, or up... Roll on the Twilight Encounter table. In order to climb the walls of the Shelf you must succeed on a DEX Save. You gain [+] if you use climbing equipment.",
     "hallways": 0,
     "danger": 0
   }

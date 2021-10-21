@@ -6,8 +6,13 @@
         <span>{{ location.index }}:</span> {{ location.name }}
       </li>
     </ul> -->
-    <h2 class="mt-6 text-xl font-bold">Location</h2>
-    <h3 class="mt-2 font-bold">Rolled:</h3>
+    <button
+      class="mt-8 p-2 text-white bg-indigo-500 hover:bg-indigo-400"
+      @click="setRandomLocationIndex()"
+    >
+      Reroll
+    </button>
+    <h2 class="mt-4 text-xl font-bold">Location</h2>
     <p>
       {{ locations[randomLocationIndex].index }}:
       {{ locations[randomLocationIndex].name }}
@@ -15,12 +20,6 @@
     <p>
       {{ locations[randomLocationIndex].description }}
     </p>
-    <button
-      class="mt-4 p-2 text-white bg-indigo-500 hover:bg-indigo-400"
-      @click="setRandomLocationIndex()"
-    >
-      Reroll
-    </button>
   </div>
 </template>
 
