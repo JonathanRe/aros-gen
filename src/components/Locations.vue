@@ -8,7 +8,7 @@
       Reroll
     </button>
     <h2 class="mt-4 text-xl font-bold">Location</h2>
-    <p>
+    <p class="mt-2">
       {{ locations[randomLocationIndex].index }}:
       {{ locations[randomLocationIndex].name }}
     </p>
