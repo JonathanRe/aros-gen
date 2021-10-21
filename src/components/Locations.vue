@@ -1,11 +1,6 @@
 <template>
   <div class="max-w-2xl mx-auto">
     <h1 class="text-3xl font-bold">aros-gen</h1>
-    <!-- <ul>
-      <li v-for="location in locations" :key="location.index">
-        <span>{{ location.index }}:</span> {{ location.name }}
-      </li>
-    </ul> -->
     <button
       class="mt-8 p-2 text-white bg-indigo-500 hover:bg-indigo-400"
       @click="setRandomLocationIndex()"
@@ -17,9 +12,9 @@
       {{ locations[randomLocationIndex].index }}:
       {{ locations[randomLocationIndex].name }}
     </p>
-    <p>
+    <div>
       {{ locations[randomLocationIndex].description }}
-    </p>
+    </div>
   </div>
 </template>
 
