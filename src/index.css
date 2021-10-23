@@ -7,3 +7,9 @@
     @apply bg-gray-200 text-gray-800 text-lg;
   }
 }
+
+@layer components {
+  .flavor {
+    @apply mb-2 italic;
+  }
+}

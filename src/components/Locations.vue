@@ -1,40 +1,41 @@
 <template>
-  <div class="max-w-2xl mx-auto">
-    <h1 class="text-3xl font-bold">aros-gen</h1>
+  <div class="max-w-2xl mx-auto px-4 pt-8">
+    <h1 class="text-2xl font-semibold mb-4">aros-gen</h1>
     <button
-      class="mt-8 p-2 text-white bg-indigo-500 hover:bg-indigo-400"
-      @click="setRandomLocationIndex()"
+      @click="updateCurrentLocation"
+      class="mb-2 px-3 py-2 bg-indigo-500 text-white hover:bg-indigo-400"
     >
-      Reroll
+      Update
     </button>
-    <h2 class="mt-4 text-xl font-bold">Location</h2>
-    <p>
-      {{ locations[randomLocationIndex].index }}:
-      {{ locations[randomLocationIndex].name }}
-    </p>
-    <div>
-      {{ locations[randomLocationIndex].description }}
-    </div>
+    <LocationsSingle :location="currentLocation" />
   </div>
 </template>
 
 <script>
 import locationsData from "../db.json";
 import { roll } from "../modules/dice";
+import LocationsSingle from "./LocationsSingle.vue";
 
 export default {
+  components: { LocationsSingle },
   data() {
     return {
       locations: locationsData,
-      randomLocationIndex: roll(12),
+      currentLocation: {},
     };
   },
   methods: {
-    setRandomLocationIndex() {
-      this.randomLocationIndex = roll(12);
+    fetchRandomLocation(locations) {
+      const index = roll(locations.length);
+      return locations[index];
+    },
+    updateCurrentLocation() {
+      this.currentLocation = this.fetchRandomLocation(this.locations);
     },
   },
-  mounted() {},
+  mounted() {
+    this.updateCurrentLocation();
+  },
 };
 </script>
 
